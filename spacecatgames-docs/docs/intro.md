@@ -36,19 +36,19 @@ First off, we don't recommend hosting on GH Pages or with selfhost. Even though 
 
 If you REALLY want to use GH Pages or selfhost, feel free to use this guide. And by selfhost, I mean you can't just upload the .JSX files to a server, or run the locally. If you want to run them locally, build the site and copy the dist/ folder.
 
-## 1 - Cloning the repo and setting up Node.
+### 1 - Cloning the repo and setting up Node.
 Step one is to locally clone the repo, and setup node.js. You will need git installed to do this, or a modern IDE like VSCode or PHPStorm.
 Before cloning, we need to install npm. You can get it from `https://www.npmjs.com`
 With git, run the following command in a terminal:
 `git clone https://github.com/neurontechofficial/spacecatgames.git`
 
-## 2 - Building with Vite
+### 2 - Building with Vite
 If you want to modify Space Cat Games in any way before building, **DO THAT NOW!**
 Once this is done, `cd` to the directory that Space Cat Games is in.
 Run the command `npm install` and then `vite build` (refer to [https://vite.dev/guide/build](https://vite.dev/guide/build) for more information on building.)
 Let this run, it may take a while. After building, you should get a "dist" folder. 
 
-## 3 - Deploying
+### 3 - Deploying
 Once you have got the "dist" folder, upload this to where you want to deploy. Refer to GH Pages for more information on deploying with them.
 We cannot provide instructions on selfhosting. 
 
