@@ -23,6 +23,7 @@ Once you are in the "Let's build something new" screen, paste the following URL 
 
 After entering that, you should see a screen that looks like the below image.
 ![Vercel Configuration Page](https://i.postimg.cc/cHBfnvK5/image.png)
+
 Make sure the "Framework Preset" is set to **Vite**
 The "Build and Output Settings" should **NOT** be changed.
 
