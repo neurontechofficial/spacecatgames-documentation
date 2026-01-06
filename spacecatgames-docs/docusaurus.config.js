@@ -50,7 +50,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/neurontechofficial/spacecatgames-documentation',
+            'https://github.com/neurontechofficial/spacecatgames-documentation/tree/main/spacecatgames-docs',
         },
         blog: {
           showReadingTime: true,
@@ -61,7 +61,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/neurontechofficial/spacecatgames-documentation',
+            'https://github.com/neurontechofficial/spacecatgames-documentation/tree/main/spacecatgames-docs',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -93,7 +93,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Hosting',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
